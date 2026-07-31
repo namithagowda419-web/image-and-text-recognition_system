@@ -1,0 +1,21 @@
+{
+  "name": "ai-recognition-server",
+  "version": "1.0.0",
+  "description": "Backend API for AI Image & Text Recognition Platform",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.4.1",
+    "multer": "^1.4.5-lts.1",
+    "tesseract.js": "^5.1.0"
+  }
+}

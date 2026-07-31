@@ -1,0 +1,15 @@
+{
+  "name": "ai-image-text-recognition-platform",
+  "version": "1.0.0",
+  "description": "Luxury Soft Aesthetic AI Image & Text Recognition Platform",
+  "scripts": {
+    "start": "concurrently \"npm run start --prefix server\" \"npm run dev --prefix client\"",
+    "dev": "concurrently \"npm run start --prefix server\" \"npm run dev --prefix client\"",
+    "server": "npm run start --prefix server",
+    "client": "npm run dev --prefix client",
+    "build": "npm run build --prefix client"
+  },
+  "dependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
